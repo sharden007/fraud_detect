@@ -5,7 +5,7 @@ import numpy as np
 np.random.seed(42)
 
 # Generate synthetic data
-n_samples = 10000  # Larger dataset
+n_samples = 1000000  # Larger dataset
 transaction_amount = np.random.uniform(1, 10000, n_samples)
 location = np.random.randint(1, 100, n_samples)  # 100 unique locations
 customer_id = np.random.randint(1, 1000, n_samples)  # 1000 unique customers
